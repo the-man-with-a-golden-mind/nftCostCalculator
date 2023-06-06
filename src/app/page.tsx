@@ -195,7 +195,7 @@ export default function Home() {
                 </div>
                 <button onClick={() => mint()} className="btn btn-primary mt-5 w-56 self-center" disabled={isDisabled}>Start</button>
                 {gasCost !== undefined ?
-                  <div className="flex flex-col">
+                  <div className="flex flex-col justify-center items-center">
                     <h1 className="mt-5 text-primary">ESTIMATED COST:</h1>
                     {cost === 0 ?
                       <progress className="progress w-56"></progress>
